@@ -10,7 +10,7 @@ extract product and instalment data (example target: Mercado Libre).
 
 ---
 
-##**Quick Start**
+## **Quick Start**
 - **Clone** the repo and create a virtual environment, then install deps:
 
 ```bash
