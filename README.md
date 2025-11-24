@@ -27,7 +27,7 @@ py -m pip install -r requirements.txt
 
 ---
 
-#**Run the extraction (example)**
+# **Run the extraction (example)**
 
 ```bash
 py -m runners.runner
