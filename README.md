@@ -10,7 +10,7 @@ extract product and instalment data (example target: Mercado Libre).
 
 ---
 
-##**Quick Start**
+## **Quick Start**
 - **Clone** the repo and create a virtual environment, then install deps:
 
 ```bash
@@ -38,14 +38,14 @@ CSV outputs are stored in the `output_data/` folder and logs are written to
 
 ---
 
-##**Features**
+## **Features**
 - **Selenium navigation** with a small browser helper in `navigation/browser.py`.
 - **BeautifulSoup parsers** in `extract/` for page parsing and model mapping.
 - **Transform & load** steps produce cleaned CSVs under `output_data/`.
 
 ---
 
-##**Installation Notes (Windows & Linux)**
+## **Installation Notes (Windows & Linux)**
 - Windows PowerShell: activate virtualenv with `.\venv\Scripts\Activate.ps1`.
 - Windows cmd: `venv\Scripts\activate`.
 - Linux/macOS or Git Bash: `source venv/bin/activate`.
@@ -53,7 +53,7 @@ CSV outputs are stored in the `output_data/` folder and logs are written to
 
 ---
 
-##**Environment Configuration (environment variables)**
+## **Environment Configuration (environment variables)**
 
 The project uses `python-dotenv` (loaded in `navigation/browser.py`). Create a
 `.env` file in the project root to override runtime behavior. Example:
@@ -81,7 +81,7 @@ Useful: copy a real agent from [What is my User Agent](https://www.whatismybrows
 
 ---
 
-##**Project Layout**
+## **Project Layout**
 - `extract/` — extractors and helpers
   - `extract/meli/` — Mercado Libre specific extractor and models
 - `pages/` — page models used by Selenium navigation
@@ -95,7 +95,7 @@ Useful: copy a real agent from [What is my User Agent](https://www.whatismybrows
 
 ---
 
-##**Troubleshooting & Tips**
+## **Troubleshooting & Tips**
 - If Selenium fails to start, ensure a compatible browser (Chrome) is
   installed and `webdriver-manager` can download the matching driver.
 - If PowerShell blocks script activation, run as administrator and execute:
@@ -108,11 +108,11 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ---
 
-##**Contributing**
+## **Contributing**
 - PRs and issues welcome. Keep changes focused and add tests where possible.
 
 ---
-##**License**
+## **License**
 
 This project is released under the MIT License — see the `LICENSE` file
 included in the repository for full terms.
